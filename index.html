@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="background-image">
+                 <h1 class="title">Find your film</h1>
+                 <a class="link1" href="/watchlist.html">My Watchlist</a>
+            </div>
+            <form class="search">
+                <div class="search-box">
+                    <i class="fa fa-search"></i>
+                    <input type="search" id="search" placeholder="Searching something with no data" />
+                    </div>
+                <button type="submit" class="submit-btn" id="submit-btn">Search</button>
+            </form>
+
+        </header>
+        <main>
+            <div id="movie-list" class="movie-list"></div>
+            <div class="startup-text" id ="startup-text">
+                <i class="fa-solid fa-film" id="movie-icon" style="color: #c8ced0;"></i>
+                <p id="start-exploring" class="start-exploring">Start exploring</p>
+                <p id="not-found" class="not-found not-visible ">Unable to find what you’re looking for. <br />Please try another search.</p>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
+
